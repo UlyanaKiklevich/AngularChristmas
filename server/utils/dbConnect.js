@@ -3,8 +3,7 @@ const bcrypt = require("bcrypt");
 
 const dbConnect = async () => {
   const client = new MongoClient(
-    // "mongodb+srv://ulya:J1vooCWMjVkq7UD3@cluster0.qiud5.mongodb.net/?retryWrites=true&w=majority",
-    "mongodb+srv://ulya:J1vooCWMjVkq7UD3@cluster0.qiud5.mongodb.net/?w=0&journal=false",
+    "",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
